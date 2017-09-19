@@ -11,5 +11,6 @@ my notes on www.dotnetconf.com
 ![meetup groups](https://github.com/lekova/dotnetconf2017-notes/blob/master/images/meetup_progroup_announcement.png)
 
 ## Links
-.NET Foundation meetups https://dotnetfoundation.org/events
-questions about .NET standard https://aka/ms/netstandardfaq to Immo Landwerth
++ .NET Foundation meetups https://dotnetfoundation.org/events
++ Meetup Pro https://www.meetup.com/pro/dotnet/
++ questions about .NET standard https://aka/ms/netstandardfaq to Immo Landwerth
