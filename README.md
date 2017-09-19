@@ -37,6 +37,16 @@ Startup performance compared to 1.1 is going down to 00:00:00.55 from 00:00:03.7
 
 Lightup feature - w/o writing a single line of code. Starts AppInsights in Azure
 
+### 3. Diagnostics 101
+
++ Exclude parts of the code until the problem's found. Exclude whole folders with files that are expected to do something related to the issue we are having.
+
++ Things to be sceptical of
+  + *Your code* - kinda obvious
+  + *The debugger's Immediate Window* - better use watches and locals
+  + *The debugger's string representation* problem with back slashes in the debugger. Always shows them are \\
+  + *Console output (examples: string, floating point)*
+  + *Articles from a few months ago* 
 
 
 ## Announcements
