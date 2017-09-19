@@ -1,9 +1,9 @@
 # dotnetconf2017-notes
 my notes on www.dotnetconf.com
 
-### 1. Keynote [here](https://github.com/lekova/dotnetconf2017-notes/blob/master/keynote.md)
+## 1. Keynote [here](https://github.com/lekova/dotnetconf2017-notes/blob/master/keynote.md)
 
-### 2. What's new in APS.NET Core 2.0
+## 2. What's new in APS.NET Core 2.0
     + Install .NET Core 2.0. from https://dot.net/core
     + Install VS from https://visualstudio.com
 
@@ -37,7 +37,7 @@ Startup performance compared to 1.1 is going down to 00:00:00.55 from 00:00:03.7
 
 Lightup feature - w/o writing a single line of code. Starts AppInsights in Azure
 
-### 3. Diagnostics 101
+## 3. Diagnostics 101
 
 + Exclude parts of the code until the problem's found. Exclude whole folders with files that are expected to do something related to the issue we are having.
 
@@ -48,7 +48,7 @@ Lightup feature - w/o writing a single line of code. Starts AppInsights in Azure
   + *Console output (examples: string, floating point)*
   + *Articles from a few months ago* 
 
-### MSBuild
+## 4. MSBuild
 
 We can change the assembly name in vscode by updating in the `*.csproj` file like so
 
@@ -72,6 +72,22 @@ We can run gulp with the build
 </Target>
 ```
  and we will have to run `dotnet restore` and then `dotnet build`
+
+## 5. Visual Studio 2017
+
+
+The new release 15.5 will be much faster in initial loading. Moved the analysis out of the main VS process which makes a lot faster.
+
+`Live unit testing` is figuring out what changes are done and which lines of code are affected. Before in order to see the tests we had to go to another Window in VS and loose contex and now we can stay in development mode.
+
+Select tests to be in life tests set `Life Unit Test > Include/Exclude`. The beaker icon is empty when excluded.
+
+Add null checks refactoring
+![add null checks refacotring](https://github.com/lekova/dotnetconf2017-notes/blob/master/images/add_null_check_refactoring.png)
+
+
+
+
 
 
 
