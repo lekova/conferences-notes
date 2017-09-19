@@ -48,6 +48,32 @@ Lightup feature - w/o writing a single line of code. Starts AppInsights in Azure
   + *Console output (examples: string, floating point)*
   + *Articles from a few months ago* 
 
+### MSBuild
+
+We can change the assembly name in vscode by updating in the `*.csproj` file like so
+
+```xml
+<AssemblyName>MyAwesomeProject</AssemblyName>
+```
+
+We can add references by using `ItemGroup`'s `Packagereference`
+
+```xml
+<ItemGroup>
+  <PackageReference Include="Microsoft.AspNetCore" Version="1.1.0" />
+</ItemGroup>
+```
+
+We can run gulp with the build
+
+```xml
+<Target Name="RunGulp" AfterTargets="Build">
+  <Exec Command="node ./node_modules/.bin/gulp compile" />
+</Target>
+```
+ and we will have to run `dotnet restore` and then `dotnet build`
+
+
 
 ## Announcements
 .Net Foundation starts sport User groups. They will start Meetup Pro user groups.
