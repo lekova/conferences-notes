@@ -85,9 +85,21 @@ Select tests to be in life tests set `Life Unit Test > Include/Exclude`. The bea
 Add null checks refactoring
 ![add null checks refacotring](https://github.com/lekova/dotnetconf2017-notes/blob/master/images/add_null_check_refactoring.png)
 
+Ctrl + T doesn't work on my VS2017!!! Not happy
 
+Code style Suggestions `Tools > Options > Text editor > C# > Code style > General` to configure code styling.
 
+The way the editor config works is its applied to everything in the same directory.
+![editor config rules](https://github.com/lekova/dotnetconf2017-notes/blob/master/images/editor_config_rules.png)
+We can set one rules for the project and completely another for the unit tests.
 
+Mads T has an extension for editor configs. Find it!
+
+**Tuples** in C# 7. They allow us to return different things from methods! we already have them in TypeScript (thank you very much!)
+
+FxCop rules have been used and integrated into Roselyn so that it can give as meaningful suggestions about architecture, design and best practices.
+
+`Ctrl + Click` to go to Definition
 
 
 
