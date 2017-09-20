@@ -33,3 +33,10 @@ We can also mapped them in the same table. Owned types can be nested. Restrictio
 ### Filters
 
 Interpolated string queries. There is a naive interpolation where even if you put the sql query in a local variable there is still a chance of sql ingection. However if the query is inside of the FromSql method it gets parametrized!
+
+
+### EF Links 
++ Docs https://docs.microsoft.com/ef/core
++ Project https://github.com/aspnet/EntityFrameworkCore
++ Blog https://blogs.msdn.com/dotnet
++ Demos https://github.com/anpete/efdemos
