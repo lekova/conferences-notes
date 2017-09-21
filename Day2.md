@@ -34,9 +34,58 @@ We can also mapped them in the same table. Owned types can be nested. Restrictio
 
 Interpolated string queries. There is a naive interpolation where even if you put the sql query in a local variable there is still a chance of sql ingection. However if the query is inside of the FromSql method it gets parametrized!
 
-
 ### EF Links 
 + Docs https://docs.microsoft.com/ef/core
 + Project https://github.com/aspnet/EntityFrameworkCore
 + Blog https://blogs.msdn.com/dotnet
 + Demos https://github.com/anpete/efdemos
+
+### Template engine
+
+How to create new template:
+  + `dotnet new -h`
+  + `dotnet new mvc -h`
+  + `dotnet new console -o C9.Demo`
+  + `cat Program.cs`
+  + `dot net restore && dotnet run`
+  + `code .`
+
+The idea is that the current project is the template and we add a folder with config file to describe the templating configs. `Template.Config > template.json`.<br />
+`shortname` is the commpand used by the user in the console to create a project with the template.
+  + `dotnet new --install`
+
+Links:
+  + Official repo https://github.com/dotnet/templating
+  + Available templates for `dotnet new` [wiki](https://github.com/dotnet/templating/wiki/Available-templates-for-dotnet-new)
+  + Additional templates aka.ms/dotnet-new-templates
+  + dotnet new intro aka.ms/dotnetnew-intro
+  + wiki https://github.com/dotnet/templating/wiki
+  + samples aka.ms/dotnetnew-template-samples
+  + conf samples https://github.com/sayedihashimi/channel9-templates-2017.04.11
+
+### Resource Management
+
+rachardCMS orchards.ResourceManagement NuGet package. Add it to ConfigureServices() with `services.AddResourceManagement()`.<br />
+It injects `<script>` tags in the html.
+
+### Library Installer
+Easily install client libraries to dotnet project
+https://github.com/aspnet/LibraryInstaller
+
+### IIS Administration API
+
+https://github.com/Microsoft/IIS.Administration
+
+### .NET Core for International Users
+
+**Globalization** is the process of building the app so we can work with cultures. Identifying the culture that must be supported. The features have to re written in a way that it behaves the same way in any supported culture.
+**Localization** is the process of assigning UI elements with localized text and resizing application's UI elements to accommodate localized text.
+
+  + Globalizing ASP.NET Core 2.0 MVC Projects
+  + Resource Files
+  + Localizing ASP.NET Core 2.0 MVC Projects
+  + User Selectable Culture with Cookies
+  + Data Annotations
+  + Custom Providers
+
+https://github.com/cwoodruff/DotNetConf2017_i18n
