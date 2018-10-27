@@ -29,7 +29,7 @@ Things to check
 }
 ```
 
-```css`
+```css
 @supports rule
 ```
 Use the supports rule to check if a specific device supports a functionality as `display: flex:`
@@ -118,9 +118,6 @@ Showed us how for a specific app he changed from a heroku hosting to a FaaS
 - Presenter: Jeff Whelpley - Co-founder and CTO at Swish.com, contributor to Angular, Google Developer Expert
 - Slides: 
 - Twitter: https://twitter.com/jeffwhelpley
-
-Notes:
-
 
 ## JS Mobile Conf Day 2 - 10/26/2018
 
@@ -287,15 +284,14 @@ maximizes power/effort
 - be aware of the assumptions that you are making
 - tell a story
 
-Don't start with a solution/feature - start with the problem
+Don't start with a solution/feature - start with the problem <br/>
+*example*: "using props" vs "passing data to child components using props"
 
-example: "using props" vs "passing data to child components using props"
+> avoid humor for intercultural docs
 
-avoid humor for intercultural docs
+> respect people's time - documents have to be good, so that reviewers can help make them great
 
-respect people's time - documents have to be good, so that reviewers can help make them great
-
-avoid obsessive perfectionizm
+> avoid obsessive perfectionizm
 
 What to do when people are mean to you: 
 1. Is everything going to be ok?
@@ -305,9 +301,9 @@ What to do when people are mean to you:
 2. Ask them what the problem is and then set the bounderies of acceptable behaviour
 
 3. How to be frendlier than you are:
-  3.1 temperature
-  3.2 intensity
-  3.3 paced breathing
+   - temperature
+   - intensity
+   - paced breathing
 
 ### Other Resources
 
