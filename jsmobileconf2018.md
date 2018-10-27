@@ -28,7 +28,7 @@ Things to check
 }
 ```
 
-```css
+```css`
 @supports rule
 ```
 Use the supports rule to check if a specific device supports a functionality as `display: flex:`
